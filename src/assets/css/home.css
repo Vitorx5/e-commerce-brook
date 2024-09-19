@@ -1,0 +1,47 @@
+.home-bg {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient( #e99393,  #ffcfcf) ;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.home-img {
+    flex: 1 2 175px;
+}
+
+.home-img img {
+    display: block;
+    max-width: 100%;
+}
+
+.home-text {
+    color: #ffff;
+    margin: 0 40px;
+    flex: 2 2 200px;
+}
+
+.home-text p {
+    font-size: 1em;
+    color: #cb305d;
+    font-weight: 500;
+}
+
+.home-text h1 {
+    font-size: 50px;
+    line-height:1;
+    color:#cb305d;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.164);
+}
+
